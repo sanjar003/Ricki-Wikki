@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Ricki-Wikki/static/css/main.a43d0d2e.css",
+    "main.js": "/Ricki-Wikki/static/js/main.5a2e1a74.js",
+    "index.html": "/Ricki-Wikki/index.html",
+    "main.a43d0d2e.css.map": "/Ricki-Wikki/static/css/main.a43d0d2e.css.map",
+    "main.5a2e1a74.js.map": "/Ricki-Wikki/static/js/main.5a2e1a74.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a43d0d2e.css",
+    "static/js/main.5a2e1a74.js"
+  ]
+}
