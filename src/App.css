@@ -1,33 +1,41 @@
 * {
   margin: 0;
   padding: 0;
-  box-shadow: border-box;
+  box-sizing: border-box;
+}
+a {
+  color: black;
+  font-size: 23px;
+  text-decoration: none;
 }
 
-.Baground {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-}
-.Posts {
-  border: 2px solid black;
-  display: flex;  
-}
-
-.Containerr {
+.HeaderClass {
+  background: rebeccapurple;
+  width: 200px;
   display: flex;
-  align-items: center;
+  gap: 100px;
+  flex-direction: column;
   justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-.TextContainer{
-margin-left: 9px;
-flex-wrap: wrap;
-padding-top: 40px;
-}
-.ChildrenContainer {
-  display: flex;
   align-items: center;
+  height: 100%;
+}
+h1 p {
+  font-size: 23px;
+}
+.container {
   text-align: center;
+}
+main {
+  min-height: calc(100vh - 85px - 22px);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.active-link {
+  color: var(--color-active);
+  cursor: default;
+  /* transition: 0.5s; */
+  color: red;
+}
+.CONTAINER_CHILDREN {
+  display: flex;
 }
